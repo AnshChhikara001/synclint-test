@@ -2,4 +2,4 @@
 
 ## Retrying
 
-Call `retry()`. It gives up after 3 attempts by default.
+Call `retry()`. It gives up after 5 attempts by default.
