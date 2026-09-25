@@ -1,2 +1,2 @@
-def retry(limit=3):
+def retry(limit=5):
     return limit
