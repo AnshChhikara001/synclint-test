@@ -11,6 +11,6 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}  # not the merge commit
           fetch-depth: 0   # both revisions; a shallow clone is refused
-      - uses: AnshChhikara001/synclint@main
+      - uses: AnshChhikara001/synclint@v1
         with:
           api-key: ${{ secrets.OPENAI_API_KEY }}
